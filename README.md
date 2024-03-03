@@ -207,13 +207,13 @@ of bathroom hygiene and user comfort significantly.</p>
 
 <div class="container">
 <div class="center-content"> 
-<h3>Improve the mood of the bathrooms by adding lights and music</h3>
+<h3>Improve the Mood of the Bathrooms by Addding Lights and Music</h3>
 <p>Ambiance plays a key role in the overall experience of using a bathroom. To transform ordinary bathrooms into spaces where people feel relaxed and uplifted, 
 we plan to introduce ambient lighting and background music. Soft, warm lighting can make the space feel welcoming and clean, while a carefully selected playlist of 
 calming music can enhance the user's comfort and reduce stress. This approach not only improves the mood of the bathrooms but also positively impacts the users' 
 perception of cleanliness and sophistication of the facilities.</p>
 
-<h3>Orient the people of proper bathroom etiquette</h3>
+<h3>Orient the People of Proper Bathroom Etiquette</h3>
 <p>Promoting proper bathroom etiquette is essential for maintaining cleanliness and ensuring a pleasant experience for all users. We plan to launch an educational 
 campaign that includes signage and digital content to remind and teach the community about key aspects of bathroom etiquette. This will cover practices such as 
 flushing after use, washing hands properly, respecting privacy, and proper disposal of waste. By fostering a culture of respect and consideration, we can enhance the 
