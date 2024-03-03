@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Baldivia & Martin_Better Bathroom Business_Ctask</title>
+<title>Better Bathroom Business_Ctask</title>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -112,7 +112,7 @@ display:inline-block  !important;
 
 <body>
 <h1 class="inset"> 3B Business: Better Bathroom Business Bureau </h1> 
-<h2 class="outset"> By: Baldivia and Baisa</h2>
+<h2 class="outset"> By: Boys</h2>
 <h3>Introduction to the project:</h3>
 <p> This project aims to enhance and monitor the sanitation of all bathrooms in the community. Through this project, we help the people have sanitized 
 private or public bathrooms when entering and exiting said building. We shall also ensure that you won't smell anymore foul odor from the 
