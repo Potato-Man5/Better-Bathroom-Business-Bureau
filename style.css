@@ -1,0 +1,101 @@
+body {
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	/* padding-right: 30px; */
+}
+h3 {
+    padding-left: 1%;
+}
+p.name {
+    font-family: Lucida Handwriting; 
+}
+div.something {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.tree {
+	width: 100%;
+	height: auto;
+	text-align: center;
+    /* margin: 0 auto;
+    margin-left: 5%; */
+}
+.tree ul {
+	padding-top: 20px;
+	position: relative;
+	transition: .5s;
+}
+.tree li {
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding: 2.5px;
+	transition: .5s;
+	padding-bottom: 5%;
+}
+.tree li::before, .tree li::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 50%;
+	border-top: 1px solid #ccc;
+	width: 50%;
+	height: 10px;
+	
+}
+.tree li::after {
+	right: 50%;
+	left: 50%;
+	border-left: 1px solid #ccc;
+}
+.tree li:only-child::after, .tree li:only-child::before {
+	display: none;
+}
+.tree li:only-child {
+	padding-top: 0;
+}
+.tree li:first-child::before, .tree li:last-child::after {
+	border: 0 none;
+}
+.tree li:last-child::before {
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after {
+	border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+}
+.tree ul ul::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border-left: 1px solid #ccc;
+	width: 0;
+	height: 20px;
+}
+.tree li a {
+	border: 1px solid #ccc;
+	padding: 5px;
+	display: inline-grid;
+	border-radius: 5px;
+	text-decoration-line: none;
+	border-radius: 5px;
+	transition: .5s;
+}
+.tree li a span {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: #ffffff;
+	padding: 5px;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
+}

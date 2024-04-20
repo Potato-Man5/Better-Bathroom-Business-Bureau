@@ -76,7 +76,9 @@ p.bathroom {
   margin-right: 400px;
   background-color: #444444;
 }
-
+p.quote {
+  text-align: center;
+}
 
 
 
