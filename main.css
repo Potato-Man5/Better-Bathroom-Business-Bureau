@@ -16,10 +16,21 @@ h1  {
     font-size: 30px;
     color: #ffffff;
 }
+h1.h  {
+  font-size: 35px;
+  color: #ffffff;
+  text-align: left;
+}
 h2  {
   text-align: center;
   font-family: 	Times New Roman;
   color: #ffffff;
+}
+h2.heirachy {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 1%;
 }
 div.about  {
   font-family: suez one,serif;
@@ -28,6 +39,9 @@ div.about  {
 h3 	{
     font-size: 28px;
     color: #ffffff;
+}
+h6 {
+  color: #ffffff;
 }
 ul 	{
     font-size: 20px;

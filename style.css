@@ -15,6 +15,9 @@ div.something {
     padding-left: 1%;
     padding-right: 1%;
 }
+p.long {
+	height: 360px;
+}
 .tree {
 	width: 100%;
 	height: auto;
