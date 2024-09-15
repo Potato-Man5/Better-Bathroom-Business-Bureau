@@ -185,3 +185,7 @@ display:inline-block  !important;
     left: calc(90% - 90px);
   }
 }
+
+u.Shopblue {
+  color: white;
+}
