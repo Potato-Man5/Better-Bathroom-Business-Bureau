@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="shop.css" rel="stylesheet" type="text/css">
+  <script src="scripts.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <style>
@@ -42,6 +44,77 @@
     </div>
   </div>
 </nav>
+
+<div class="container" style="margin-top:40px;">
+  <div class="row">
+
+    <!-- Product Image + Description -->
+    <div class="col-sm-6 text-center">
+
+      <img src="Shop_Img/HandDryer.png"
+          class="img-responsive img-thumbnail"
+          alt="Hand Dryer">
+
+      <!-- Description Box -->
+      <div class="image-description">
+        <h4>How It Works:</h4>
+        <p>
+        It works by blowing up your intestines after ingesting the dynamite ridden blaster pill. Effects can be felt within
+        minutes as it creates a powerful explosion that effectively clears out all waste from your digestive system.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Product Info -->
+    <div class="col-sm-6">
+      <h2>Hand Dryer</h2>
+      <h4 style="color:#337ab7;">₱2,015</h4>
+
+      <p>
+        Tick tock, feeling like you're on the clock? Don't let constipation hold you back! Introducing; BOOM, the bowel blaster for 
+        those moments where you need a little extra push. Feel the relief experience the freedom. Bowel Blaster, make every trip
+        a blast.
+      </p>
+
+      <hr>
+      
+      <!-- Quantity Controls -->
+      <div class="form-group">
+        <label>Quantity</label>
+        <div class="input-group" style="max-width:160px;">
+          <span class="input-group-btn">
+            <button class="btn btn-default" onclick="decreaseQty('qty1')">−</button>
+          </span>
+          <input type="text" id="qty1" value="1" readonly class="form-control text-center">
+          <span class="input-group-btn">
+            <button class="btn btn-default" onclick="increaseQty('qty1')">+</button>
+          </span>
+        </div>
+      </div>
+
+      <!-- Order Button -->
+      <button class="btn btn-primary btn-lg">
+        Add to Order
+      </button>
+
+      <p style="margin-top:10px;color:#777;">
+        ✔ In stock &nbsp; | &nbsp; ✔ Fast delivery
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<hr>
+
+<footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
 
 </body>
 </html>
